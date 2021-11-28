@@ -1,0 +1,17 @@
+body
+
+.conteudo{
+    
+     height: 80vh;
+    padding: 5px 10px;
+    display: flex;
+    background-image:url("../img/img_03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: 50%;  
+}
+
+.color{
+
+    background-color: #05EB1C;
+}
