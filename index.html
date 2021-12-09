@@ -15,6 +15,8 @@
 
     <!-- meu css -->
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/beneficios.css">
+    <link rel="stylesheet" href="./CSS/planos.css">
 
     <title>Amanda Personal</title>
 </head>
@@ -22,9 +24,7 @@
 <body>
     <!-- menu -->
 
-    <nav class="navbar  navbar-expand-lg navbar-light color">
-
-        <!-- <a class="navbar-brand" href="#"><img src="./Img/imgTraveller.png" alt=""></a> -->
+    <nav class="navbar  navbar-expand-lg navbar-light color">       
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,10 +47,12 @@
     <!-- fim do menu -->
 
     <!-- Carrossel -->
-    <div class="container-fluid d-flex justify-content-center  col-md-12 col-lg-12 conteudo ">
-        <div class="row">
+    <div class="container-fluid d-flex justify-content-center conteudo ">
+        <div class="row ">
             <div class="col-md-4">
+                <figure>
                 <img src="./img/img_logo_amanda.png" alt="Logo Marca">
+                </figure>
             </div>
         </div>
     </div>
@@ -58,15 +60,15 @@
 
     <!--SOBRE-->
     <div class="block my-5">
-        <div class="container">
+        <div class="container col-sm-12">
             <div class="row">
-                <div id="Sobre" class="  align-self-center text-center order-md-1 order-2">
+                <div  class=" col-md-6 align-self-center text-center order-md-1 order-2 my-5">
                     <img src="./img/img_amanda.jpeg" class="img-fluid rounded-circle">
                 </div>
-                <div class="col-md-4 align-self-center text-center order-md-1 order-2">
-                    <!-- <img src="./img/img_amanda.jpeg" class="img-fluid rounded-circle"> -->
-                </div>
-                <div class="col-md-4 align-self-center order-md-2 order-1 mb-md-0 mb-4">
+                <!-- <div class="col-md-4 align-self-center text-center order-md-1 order-2">
+                    <img src="./img/img_amanda.jpeg" class="img-fluid rounded-circle">
+                </div> -->
+                <div  id="Sobre" class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4 my-5">
                     <h2 class="title">Amanda Ferreira</h2>
                     <h4 class="subtitle font-weight-light">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatem aliquam libero
@@ -79,61 +81,37 @@
     </div>
     <!--//SOBRE-->
 
-    <!--Depoimentos-->
-    <div class="col p-3 mb-2 bg-secondary text-white ">
-        <div class="block my-5">
-            <div class="container my-5 ">
-                <h2 class="title text-center">Nossos serviços</h2>
-                <h4 id="Depoimentos" class="subtitle text-center  font-weight-light mb-4">
-                    Depoimentos dos Alunos
-                </h4>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-4 my-3">
-                        <!-- <a href="#" class="destaque "> -->
-                        <div class="img-container mb-3">
-                            <img src="./Img/img_user1.jpg" class="img-fluid rounded-circle">
-                        </div>
-                        <h5 class="text-uppercase">João</h5>
-                        <p class="mb-0">
-                            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                            accusantium""
-                        </p>
-                        <!-- </a> -->
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-4 my-3">
-                        <!-- <a href="#" class="destaque"> -->
-                        <div class="img-container mb-3">
-                            <img src="./img/img_user1.jpg" class="img-fluid rounded-circle">
-                        </div>
-                        <h5 class="text-uppercase">Maria</h5>
-                        <p class="mb-0">
-                            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                            accusantium"
-                        </p>
-                        <!-- </a> -->
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-4 my-3">
-                        <!-- <a href="#" class="destaque"> -->
-                        <div class="img-container mb-3">
-                            <img src="./Img/img_user1.jpg" class="img-fluid rounded-circle">
-                        </div>
-                        <h5 class="text-uppercase">Carlos</h5>
-                        <p class="mb-0">
-                            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                            accusantium"
-                        </p>
-                        <!-- </a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <!--//Fim dos depoimentos-->
+   
+
+    <!-- Beneficios -->
+    <section class="beneficios">
+        <h2 class="beneficios__titulo my-5">O que diz nossos clientes?</h2>
+        <ul class="beneficios__lista">
+            <li class="beneficio--paravoce">
+                <h3 class="beneficio__titulo">João Nogueira</h3>
+                <p class="beneficio__texto">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, non ea sunt quasi earum reprehenderit fugiat cumque. </p>
+            </li>
+            <li class="beneficio--duvidas">
+                <h3 class="beneficio__titulo">Maria de Jesus</h3>
+                <p class="beneficio__texto">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, non ea sunt quasi earum reprehenderit fugiat cumque.</p>
+            </li>
+            <li class="beneficio--didatica">
+                <h3 class="beneficio__titulo">Pedro Henrique</h3>
+                <p class="beneficio__texto">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, non ea sunt quasi earum reprehenderit fugiat cumque.</p>
+            </li>
+            <li class="beneficio--didatica">
+                <h3 class="beneficio__titulo">Juliete silva</h3>
+                <p class="beneficio__texto">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, non ea sunt quasi earum
+                    reprehenderit fugiat cumque.</p>
+            </li>
+        </ul>
+    </section>
+    <!-- Fim Beneficios -->
 
 
     <!--SOBRE-->
-    <div id="Forum" class="block my-5">
+
+       <div id="Forum" class="block my-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
@@ -156,7 +134,7 @@
     <!--//SOBRE-->
 
     <!--SOBRE-->
-    <div id="Forum" class="block my-5">
+    <div id="Forum" class=" col-sm-12 block my-5">
         <div class="container">
             <div class="row">
 
@@ -174,6 +152,34 @@
      </div>
     </div>
     <!--//SOBRE-->
+
+    <!-- Plano -->
+    <section class="planos">
+        <h2 class="planos__titulo">Conheça nossos planos</h2>
+        <article class="cards__planoanual">
+            <span class="plano--destaque"> + Assinado</span>
+            <div class="planos__card card--anual">
+                <h3 class="plano__titulo">Plano Trimestral</h3>
+                <p>12x <span class="valor--destaque">R$ 50,00</span></p>
+                <p>Valor total de R$ 600,00</p>
+                <!-- <span></span> -->
+                <a href="cursos.html" class="cards__botao botao">Matricule-se</a>
+            </div>
+        </article>
+           <article class="planos__card card--semestral">
+            <h3 class="plano__titulo">Plano mensal</h3>
+            <p>12x <span class="valor--destaque">R$ 60,00</span></p>
+            <p>Valor total de R$ 360,00</p>
+            <a href="cursos.html" class="cards__botao botao">Matricule-se</a>
+        </article>
+        
+        <article class="planos__pagamentos">
+            <p>Pagamento seguro com PayPal</p>
+            <p>Oferecemos boleto à vista, <a href="#">basta entrar em contato</a></p>
+        </article>
+    </section>
+    
+    <!-- Fim Plano -->
 
     <!-- Contato -->
     <div class="p-3 mb-2  text-center ">

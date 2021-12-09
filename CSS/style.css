@@ -1,17 +1,35 @@
 body
 
 .conteudo{
-    
-     height: 80vh;
-    padding: 5px 10px;
-    display: flex;
-    background-image:url("../img/img_03.jpg");
-    background-repeat: no-repeat;
+   
+
+    color: #fff;
+    text-align: center;
+    background-image: url(../img/img_03.jpg);
     background-size: cover;
-    background-attachment: 50%;  
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
 }
 
 .color{
 
     background-color: #05EB1C;
 }
+
+figure img{
+
+    width: 100%;
+}
+
+
+
+@media(min-width:768px) {
+    .conteudo {
+        padding: 6rem 5% 0;
+        background-image: url(../img/img_03.jpg);
+      }
+    }
